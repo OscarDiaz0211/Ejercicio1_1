@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1_1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="SkyBlue" Padding="24" CornerRadius="0">
+            <Label Text="Ejercicio1.1" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Numero1" FontSize="Default" Padding="5,0,0,0"/>
+        <Entry x:Name="num1" Placeholder=" Ingrese Numero" Keyboard="Numeric" Margin="5,0,5,0" />
+
+        <Label Text="Numero2" FontSize="Default" Padding="5,0,0,0"/>
+        <Entry x:Name="num2" Placeholder=" Ingrese Numero" Keyboard="Numeric" Margin="5,0,5,0" />
+
+        <Button Text="Suma" x:Name="btnsuma" Clicked="btnsuma_Clicked" BackgroundColor="SkyBlue" TextColor="White" />
+        <Button Text="Resta" x:Name="btnresta" Clicked="btnresta_Clicked" BackgroundColor="SkyBlue" TextColor="White" />
+        <Button Text="Multiplicacion" x:Name="btnmulti" Clicked="btnmulti_Clicked" BackgroundColor="SkyBlue" TextColor="White" />
+        <Button Text="Division" x:Name="btndivi" Clicked="btndivi_Clicked" BackgroundColor="SkyBlue" TextColor="White" />
+
+
+    </StackLayout>
+
+</ContentPage>

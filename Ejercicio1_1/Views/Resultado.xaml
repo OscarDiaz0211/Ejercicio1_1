@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1_1.Views.Resultado">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Tu Resultado Es: "
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                FontSize="25"/>
+
+            <Label Text="Numero"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                x:Name="lbresultado"
+                FontSize="25"/>
+
+            <Label Text=""
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                FontSize="25"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
